@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajouter un Instrument - École de Musique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="/">🎵 École de Musique</a>
+        <div class="navbar-nav ms-auto">
+            <a class="nav-link" href="/">Accueil</a>
+            <a class="nav-link" href="/instruments">Instruments</a>
+            <a class="nav-link" href="/profs">Professeurs</a>
+            <a class="nav-link" href="/cours">Cours</a>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <h3 class="mb-0">➕ Ajouter un nouvel instrument</h3>
+                </div>
+                <div class="card-body">
+                    <form th:action="@{/instruments/add}" th:object="${instrument}" method="post">
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom de l'instrument *</label>
+                            <input type="text" class="form-control" id="nom" th:field="*{nom}"
+                                   required placeholder="Ex: Piano à queue, Guitare classique...">
+                            <div class="form-text">Le nom unique de l'instrument</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="famille" class="form-label">Famille *</label>
+                            <select class="form-select" id="famille" th:field="*{famille}" required>
+                                <option value="">Choisir une famille...</option>
+                                <option th:each="famille : ${familles}"
+                                        th:value="${famille}"
+                                        th:text="${famille}"></option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="disponibilite"
+                                       th:field="*{disponibilite}" checked>
+                                <label class="form-check-label" for="disponibilite">
+                                    Instrument disponible
+                                </label>
+                            </div>
+                            <div class="form-text">Décocher si l'instrument est en réparation ou indisponible</div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success">💾 Enregistrer l'instrument</button>
+                            <a href="/instruments" class="btn btn-outline-secondary">❌ Annuler</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    <div class="container">
+        <p>&copy; 2024 École de Musique. Tous droits réservés.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
