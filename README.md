@@ -35,6 +35,8 @@ Build : Gradle
 <img width="944" height="421" alt="cccccccc" src="https://github.com/user-attachments/assets/9de14711-55d5-46bf-b8a2-351fa139fc9c" />
 
 
+
+
 3. Diagramme d'architecture :
 
    
@@ -222,8 +224,15 @@ https://github.com/user-attachments/assets/1f88fef0-5e4c-4575-bd89-da2f97b79a32
 
 
 
+https://github.com/user-attachments/assets/055dd921-2444-49d5-9225-0aedb8b19ddc
+
+
+
+
 
 https://github.com/user-attachments/assets/9f9d2f0e-38a9-48e0-803c-23f9cb68dc8f
+
+
 
 
 
@@ -247,8 +256,45 @@ https://github.com/user-attachments/assets/20a9bcb1-a7cd-40f9-826c-2eaaac7cf75d
 
    Filtres de recherche:
    
+
+https://github.com/user-attachments/assets/91063e34-eee4-4b6d-9062-40d3e1d42b4c
+
+  Ajouter un nouveau professeur :
+  
    
+https://github.com/user-attachments/assets/ea71bcba-6f29-490d-9385-59ecdf690df4
+
+3.Liste des Cours 
+
+   Filtres de recherche:
    
+
+https://github.com/user-attachments/assets/6474e595-65a0-4ec5-8110-ef4305cab8c7
+
+ Ajouter un nouveau cours :
+
+
+https://github.com/user-attachments/assets/f7e5db62-a113-4d71-9c27-68e2b598c92b
+
+
+ 4. Tableau de Bord - Statistiques
+
+    
+
+https://github.com/user-attachments/assets/f79ad9b6-9a15-43c5-9294-2f35beec785f
+
+
+Auteurs / Encadrement
+Étudiant 
+Nom :aicha barahou
+Encadrement : Mohamed lachgar
+Module : Programmation Avancées et DevOps
+Établissement :ENS-marrakech
+Année : 2025
+
+
+ 
+
 
 
 
