@@ -22,7 +22,7 @@ Digitaliser la gestion des ressources pédagogiques (instruments, professeurs) e
 
  - ** Lien de téléchargement :
 
-   https://drive.google.com/drive/folders/145Dpwgrq7lbynF2DxxFYhGw1kUa7-1rq?usp=sharing
+https://drive.google.com/drive/folders/145Dpwgrq7lbynF2DxxFYhGw1kUa7-1rq?usp=sharing
 ------------------
 
 ## 🏗️ Architecture Technique
